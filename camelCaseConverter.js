@@ -1,8 +1,8 @@
 function convertToCamelCase(string) {
   if (string !== string.toString()) {
-    return "INPUT ERR: Your input is not of a string data type. Please input a string";
+    return "INPUT ERROR: Your input is not of a string data type. Please input a string";
   } else if (string.length === 0) {
-    return "INPUT ERR: You have given an empty string. Please input a string with characters";
+    return "INPUT ERROR: You have given an empty string. Please input a string with characters";
   }
 
   let camelCaseStr = "";
